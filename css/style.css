@@ -7,13 +7,46 @@ a{
     color: white;
     text-decoration: none;
 }
-
+.services {
+    background-color: white;
+    color: black;
+    padding: 10px 0px 10px 0px;
+}
+.uslug {
+    height: 100%;
+    padding-top: 10px;
+    font-size: 40px;
+    text-align: center;
+    color:black;
+}
 .body_page {
     background-color:black;
     color:blanchedalmond;
     margin: 0px;
 }
-
+.zagolovok div{
+    height: 300px;
+    width: 100%;
+}
+.zagolovok H1{
+    color:white;
+    height: 100%;
+    padding-top: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+.services ul{
+    columns: 2;
+    column-gap: 10px;
+    margin: 0 100px 100px 300px;
+}
+.services p{
+    text-align: center;
+}
+.services li {
+    width: fit-content;
+    padding: 5px;
+  }
 .li-flex{
     position: relative;
     color: white;
