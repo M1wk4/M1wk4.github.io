@@ -33,7 +33,7 @@ a{
     height: 400px;
     width: 100%;
     background-image: url(../images/фон2.jpg);
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: 100%;
 
@@ -44,9 +44,10 @@ a{
     background-color: black;
 }
 .competition_zag{
-    margin: 0;
-
-    color: white;
+    height: 100%;
+    padding-top: 20px;
+    font-size: 40px;
+    text-align: center;
 }
 .H1_zag{
     margin: 0;
@@ -68,6 +69,7 @@ H2{
     width: 50%;
     background-color: white;
     color:rgb(0, 0, 0);
+
 }
 .dop {
     display: flex;
@@ -90,6 +92,7 @@ h3{
     margin-left: 83px;
     float: left;
     list-style: none;
+    
 }
 .pic1{
     position: relative;
@@ -105,6 +108,13 @@ h3{
     top: 60px;
     list-style: none;
 }
+.list_of_competencies{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 40px;
+    font-size: 20px;
+}
 .wrapper{
     max-width: 1200px;
     margin: 0 auto;
@@ -112,7 +122,6 @@ h3{
     padding: 2em 2em 2em 2em;
 
 }
-
 .flex-row-div{
     display: flex;
     flex-direction: row;
